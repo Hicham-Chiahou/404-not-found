@@ -1,15 +1,15 @@
 img {
   width: 500px;
   /* height:50%; */
-  
 }
 
 body {
-    background: #FFFFFF;
-    /* min-height: 100vh; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
+  background: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 main {
@@ -18,7 +18,6 @@ main {
   height: 500px;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 nav {
@@ -27,7 +26,7 @@ nav {
 
 h1 {
   font-family: Space Mono;
-  font-size: 64px;
+  font-size: 4vw;
   letter-spacing: -0.035em;
   margin: 0px;
   max-width: 600px;
@@ -35,49 +34,53 @@ h1 {
 
 p {
   font-family: Space Mono;
-  font-size: 24px;
+  font-size: 1.5vw;
   line-height: 36px;
   letter-spacing: -0.035em;
   max-width: 400px;
 }
-button{ 
-width: 216px;
-height: 68px;
-background: #333333;
-color: white;
-font-family: Space Mono;
-font-size: 14px;
-font-weight: 700;
-line-height: 21px;
-letter-spacing: -0.035em;
-border: none;
+button {
+  width: 216px;
+  height: 68px;
+  background: #333333;
+  color: white;
+  font-family: Space Mono;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  border: none;
+}
+
+section {
+  /* height: 500px; */
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+h4 {
+  font-family: Space Mono, sans-serif;
+  font-size: 24px;
+}
+
+footer {
+  text-align: center;
+  /* margin-top: 200px; */
 
 }
 
-section{
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-
-
+small {
+  width: 100%;
+  text-align: center;
+  font-family: space Mono, sans-serif;
 }
 
-h4{
-    font-family: Space Mono, sans-serif;
-    font-size: 24px;
-}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 
-footer{
-    left: 0;
-    bottom: 0;
-    position: fixed;
-    text-align: center;
-}
-
-small{
-    width: 100%;
-    text-align: center;
-    font-family: space Mono, sans-serif;
 }
