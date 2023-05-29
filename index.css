@@ -6,9 +6,10 @@ img {
 
 body {
     background: #FFFFFF;
-    height: 100vh;
-    display: flex;
+    /* min-height: 100vh; */
+    /* display: flex;
     flex-direction: column;
+    justify-content: space-around; */
 }
 
 main {
@@ -69,14 +70,14 @@ h4{
 }
 
 footer{
-   ;
-    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    position: fixed;
     text-align: center;
 }
 
 small{
     width: 100%;
-    
     text-align: center;
     font-family: space Mono, sans-serif;
 }
