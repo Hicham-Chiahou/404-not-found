@@ -160,3 +160,17 @@ small {
   }
 
 }
+
+@media only screen and (max-width: 360px) {
+ 
+  
+  main {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+ 
+
+}
