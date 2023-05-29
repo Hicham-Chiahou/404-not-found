@@ -166,7 +166,7 @@ small {
   
   main {
     display: flex;
-    height: 600px;
+    height: 500px;
     flex-wrap: wrap;
     justify-content: space-around;
   }
