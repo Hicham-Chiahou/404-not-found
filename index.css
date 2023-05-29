@@ -79,85 +79,15 @@ small {
 }
 
 @media only screen and (max-width: 600px) {
-  img {
-    width: 250px;
-    /* height:50%; */
-  }
-  
-  body {
-    background: #ffffff;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
   
   main {
     display: flex;
-    
     height: 650px;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   
-  nav {
-    margin-bottom: 5%;
-  }
   
-  h1 {
-    font-family: Space Mono;
-    font-size: 8vw;
-    letter-spacing: -0.035em;
-    margin: 0px;
-    max-width: 600px;
-  }
-  
-  p {
-    font-family: Space Mono;
-    font-size: 5vw;
-    line-height: 36px;
-    letter-spacing: -0.035em;
-    max-width: 400px;
-  }
-  button {
-    width: 216px;
-    height: 68px;
-    background: #333333;
-    color: white;
-    font-family: Space Mono;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: -0.035em;
-    border: none;
-  }
-  
-  section {
-    /* height: 500px; */
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-  }
-  
-  h4 {
-    font-family: Space Mono, sans-serif;
-    font-size: 20px;
-  }
-  
-  footer {
-    text-align: center;
-    /* margin-top: 200px; */
-  
-  }
-  
-  small {
-    width: 100%;
-    text-align: center;
-    font-family: space Mono, sans-serif;
-  }
 
 }
 
