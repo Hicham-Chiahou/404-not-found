@@ -58,7 +58,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 h4 {
@@ -69,7 +68,6 @@ h4 {
 footer {
   text-align: center;
   /* margin-top: 200px; */
-
 }
 
 small {
@@ -79,28 +77,35 @@ small {
 }
 
 @media only screen and (max-width: 600px) {
-  
   main {
     display: flex;
     height: 650px;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  
-  
-
 }
 
 @media only screen and (max-width: 360px) {
- 
-  
   main {
     display: flex;
     height: 500px;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  
- 
+}
 
+@media only screen and (max-width: 300px) {
+  main {
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 20vw;
+  }
+
+  p {
+  
+    font-size: 8vw;
+    
+}
 }
